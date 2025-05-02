@@ -1,12 +1,9 @@
-import ProyectCardProps from "../data/Projects";
-
 interface ProyectCardProps {
     title: string;
     description: string;
     badge: string;
     image: string;
 }
-
 
 function ProyectCard(props: ProyectCardProps) {
     const { title, description, badge, image } = props;
