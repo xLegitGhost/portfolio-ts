@@ -1,7 +1,7 @@
 'use client'
 import Hero from './components/Hero';
 import ProyectCard from './components/ProyectCard';
-import { projects } from './data/Projects';
+import { projects } from '../data/Projects';
 import ButtonSection from './components/ButtonSection';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
