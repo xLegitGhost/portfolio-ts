@@ -1,4 +1,4 @@
-function ButtonSection(props: any) {
+function ButtonSection(props : { title: string; location: string }) {
   const { location, title } = props;
   return (
     <div className="hover:scale-105 transition-transform duration-300 ease-in-out">
