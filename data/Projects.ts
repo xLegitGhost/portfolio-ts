@@ -29,4 +29,4 @@ const projects = [
     }
 ]
 
-export {projects};
+export { projects}
